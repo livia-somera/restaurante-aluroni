@@ -1,0 +1,33 @@
+@import 'styles/variaveis.scss';
+@import "styles/breakpoints";
+
+.menu {
+padding: 20px $padding-horizontal;
+}
+.header {
+    height: 300px;
+    background-image: url('/assets/cardapio/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 $padding-horizontal;
+    &__text {
+        color: white;
+        font-size: 5rem;
+        min-width: 400px;
+        width: 40%;
+    }
+}
+
+.cardapio {
+    padding: 0 $padding-horizontal;
+    &__filtros {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+  }
